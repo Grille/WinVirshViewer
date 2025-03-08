@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<LangVersion>12</LangVersion>
+		<Authors>Paul Hirch</Authors>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="GGL.BinaryView" Version="2.4.1" />
+	  <PackageReference Include="Grille.IO.BinaryView" Version="3.0.0" />
+	  <PackageReference Include="SSH.NET" Version="2020.0.2" />
+	</ItemGroup>
+
+</Project>
